@@ -14,6 +14,7 @@ for c in range(len):
     place_plus = (place + count)
     print(f'{bank[place_plus]}{count2}', end='')
     count += 1
+    count2 += 1
     if count2 == 9:
         count2 = 0
 print('\n\n')

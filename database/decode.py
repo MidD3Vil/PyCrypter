@@ -23,7 +23,7 @@ def decode():
     key = str(input(f'{Gpurple}Digite o seu pin de 4 digitos:{VRCRM} '))
     print(f'\n{Gpurple}====================================')
     len_str = len(word)
-    from Bank import bank
+    from bank import bank
     # pad = ['m', 'i', 'd']
     list = []
     end_list = []

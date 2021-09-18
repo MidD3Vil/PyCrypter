@@ -113,7 +113,7 @@ Sair = False
 while Sair == False:
     try:
         banner.menu()
-        opc = str(input(f'{Gpurple}Digite o numero da opção que deseja: \n>>>'))
+        opc = str(input(f'\n{Gpurple}Digite o numero da opção que deseja: \n>>>'))
         clear()
         print(f'{Gpurple}=============================\n')
         word = str(input(f'{Gpurple}Digite o texto para encrypt:{VRCRM} '))

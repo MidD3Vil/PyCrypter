@@ -114,7 +114,6 @@ while Sair == False:
     try:
         banner.menu()
         opc = str(input(f'\n{Gpurple}Digite o numero da opção que deseja: \n>>>'))
-        clear()
     except:
         error_dialog('Caracteres não reconhecidos');
         op = None

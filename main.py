@@ -115,19 +115,19 @@ while Sair == False:
         banner.menu()
         opc = str(input(f'\n{Gpurple}Digite o numero da opção que deseja: \n>>>'))
         clear()
-        print(f'{Gpurple}=============================\n')
+        print(f'{Gpurple}====================================\n')
         word = str(input(f'{Gpurple}Digite o texto para encrypt:{VRCRM} '))
         key = str(input(f'{Gpurple}Digite o seu pin de 4 digitos:{VRCRM} '))
-        print(f'\n{Gpurple}=============================')
+        print(f'\n{Gpurple}====================================')
     except:
         error_dialog('Caracteres não reconhecidos');
         op = None
     clear()
 
     if opc == '1' or opc == '01':     # ENCODE
-        Encode.encode()
+        encode.encode()
     elif opc == '2' or opc == '02':   # DECODE
-        Decode.decode()
+        decode.decode()
     elif opc == '3' or opc == '03':   # Atualizar painel
         os.popen('cd database && bash update.sh');
         dialog('Reiniciando o painel...');

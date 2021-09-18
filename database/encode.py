@@ -1,4 +1,27 @@
-def encode(word, key):
+def encode():
+    import os
+
+    ## Tabela de cores ANSI (Python) ##
+    Mblack = '\033[1;30m'   # Preto
+    Ired = '\033[1;31m'     # Vermelho
+    Dgreen = '\033[1;32m'   # Verde
+    Nyellow = '\033[1;33m'  # Amarelo
+    Iblue = '\033[1;34m'    # Azul
+    Gpurple = '\033[1;35m'  # Roxo
+    Hcyan = '\033[1;36m'    # Ciano
+    Twhite = '\033[1;37m'   # Branco
+    VRCRM = '\033[0;0m'     # Remover
+    def clear():
+        os.system('cls' if os.name == 'nt' else 'clear')
+
+    clear()
+        
+    print(f'Script de Ofuscação by Dr Midnight')
+    
+    print(f'{Gpurple}====================================\n')
+    word = str(input(f'{Gpurple}Digite o texto para encrypt:{VRCRM} '))
+    key = str(input(f'{Gpurple}Digite o seu pin de 4 digitos:{VRCRM} '))
+    print(f'\n{Gpurple}====================================')
     len_str = len(word)
     from Bank import bank
     end_list = []

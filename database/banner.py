@@ -14,7 +14,7 @@ def menu():
         purple1, purple1, purple1, purple2, purple2, purple2, purple3, purple3, purple3, purple4, purple4, purple4,
         purple5, purple5, purple5, purple6, purple6, purple6, purple7, purple7, purple7, purple8, purple8, purple8,
         purple9, purple9, purple9, purple10, purple10, purple10, purple11, purple11, purple11, purple10, purple10,
-        purple10, purple9, purple9, purple9, purple8, purple8, purple8, purple7, purple7, purple7]
+        purple10, purple9, purple9, purple9, purple8, purple8, purple8, purple7, purple7, purple7, purple6, purple6]
     from math import ceil
     txt = (r'''.                   
     
@@ -37,11 +37,14 @@ def menu():
                             /         /{_/\__}\   `          \    `
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ┃
-┃ ░░                                                                               ░░ ┃
-┃ ░░              ENCODE - DECODE 100% EM PYTHON BY DR MIDNIGHT / VRC              ░░ ┃
+┃ ░░              ==================================================               ░░ ┃
+┃ ░░                     ENCODE - DECODE  BY DR MIDNIGHT / VRC                     ░░ ┃
 ┃ ░░                          ESCOLHA A OPÇÃO QUE DESEJA:                          ░░ ┃
 ┃ ░░                                                                               ░░ ┃
-┃ ░░                   01 <<< ENCODE  <--------->  02 >>> DECODE                   ░░ ┃
+┃ ░░              01 <<< ENCODE        <-------->      DECODE >>> 02               ░░ ┃
+┃ ░░              ==================================================               ░░ ┃
+┃ ░░              03 <<< ATUALIZAR     <-------->        SAIR >>> 04               ░░ ┃
+┃ ░░              05 <<< CRIADOR       <-------->       GRUPO >>> 06               ░░ ┃
 ┃ ░░                                                                               ░░ ┃
 ┃ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛

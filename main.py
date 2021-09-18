@@ -49,7 +49,7 @@ except:
 
 
 try:
-    from database import encode, decode, banner
+    from database import bank, encode, decode, banner
 except Exception as error:
     print(f'{Twhite}{Ired}[*]{Twhite} Erro: ' + str(error))
     exit()

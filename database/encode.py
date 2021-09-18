@@ -41,4 +41,4 @@ def encode():
     end_list = ''.join(end_list)
     str_list = str(end_list)
     result = ''.join(map(str, str_list))
-    return result
+    print('Texto Criptografado com sucesso!\n >>>' return result)

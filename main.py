@@ -49,9 +49,9 @@ except:
 
 
 try:
-    from database import Bank, Encode, Decode, banner
+    from database import encode, decode, banner
 except Exception as error:
-    print(f'{Twhite}{Ired}[*]{Twhite} Erro: ' + error)
+    print(f'{Twhite}{Ired}[*]{Twhite} Erro: ' + str(error))
     exit()
 
 def dialog(text='', tiled='='):

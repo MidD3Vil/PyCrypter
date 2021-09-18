@@ -23,7 +23,7 @@ def decode():
     key = str(input(f'{Gpurple}Digite o seu pin de 4 digitos:{VRCRM} '))
     print(f'\n{Gpurple}====================================')
     len_str = len(word)
-    from bank import bank
+    from database import bank
     # pad = ['m', 'i', 'd']
     list = []
     end_list = []
@@ -36,9 +36,9 @@ def decode():
         count += 1
     count = 0
     for element in list:
-        place = bank.index(element)
+        place = bank.bank().index(element)
         place_plus = (place - int(key[count_key]))
-        end_list.append(f'{bank[place_plus]}')
+        end_list.append(f'{bank.bank()[place_plus]}')
         count += 1
         count_key += 1
         if count_key == 4:

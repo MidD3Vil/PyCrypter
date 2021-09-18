@@ -121,11 +121,11 @@ while Sair == False:
 
     if opc == '1' or opc == '01':     # ENCODE
         print(encode.encode())
-        vrc = input('Aperte qualquer tecla para voltar')
+        vrc = input('\nAperte qualquer tecla para voltar')
         clear()
     elif opc == '2' or opc == '02':   # DECODE
         print(decode.decode())
-        vrc = input('Aperte qualquer tecla para voltar')
+        vrc = input('\nAperte qualquer tecla para voltar')
         clear()
     elif opc == '3' or opc == '03':   # Atualizar painel
         os.popen('cd database && bash update.sh');

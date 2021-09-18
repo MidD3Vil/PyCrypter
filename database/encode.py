@@ -1,4 +1,4 @@
-from Bank import bank
+from bank import bank
 
 bank = bank()
 

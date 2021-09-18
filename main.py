@@ -120,9 +120,9 @@ while Sair == False:
     clear()
 
     if opc == '1' or opc == '01':     # ENCODE
-        encode.encode()
+        print(encode.encode())
     elif opc == '2' or opc == '02':   # DECODE
-        decode.decode()
+        print(decode.decode())
     elif opc == '3' or opc == '03':   # Atualizar painel
         os.popen('cd database && bash update.sh');
         dialog('Reiniciando o painel...');

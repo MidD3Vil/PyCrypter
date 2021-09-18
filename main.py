@@ -115,10 +115,6 @@ while Sair == False:
         banner.menu()
         opc = str(input(f'\n{Gpurple}Digite o numero da opção que deseja: \n>>>'))
         clear()
-        print(f'{Gpurple}====================================\n')
-        word = str(input(f'{Gpurple}Digite o texto para encrypt:{VRCRM} '))
-        key = str(input(f'{Gpurple}Digite o seu pin de 4 digitos:{VRCRM} '))
-        print(f'\n{Gpurple}====================================')
     except:
         error_dialog('Caracteres não reconhecidos');
         op = None

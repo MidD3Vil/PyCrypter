@@ -23,14 +23,14 @@ def encode():
     key = str(input(f'{Gpurple}Digite o seu pin de 4 digitos:{VRCRM} '))
     print(f'\n{Gpurple}====================================')
     len_str = len(word)
-    from bank import bank
+    from database import bank 
     end_list = []
     # pad = ['m', 'i', 'd']
     count = count_add = count_key = 0
     for c in range(len_str):
-        place = bank.index(word[count])
+        place = bank.bank().index(word[count])
         place_plus = (place + int(key[count_key]))
-        end_list.append(f'{bank[place_plus]}{count_add}')
+        end_list.append(f'{bank.bank()[place_plus]}{count_add}')
         count += 1
         count_add += 1
         count_key += 1
